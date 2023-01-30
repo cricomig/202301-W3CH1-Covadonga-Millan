@@ -3,6 +3,4 @@ export interface Character {
   family: string;
   age: number;
   value: 'alive' | 'dead';
-  greetings(): string;
-  die(): boolean;
 }
